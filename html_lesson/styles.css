@@ -1,0 +1,42 @@
+/* Встановлення базових стилів для тіла та вирівнювання меню */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#menu {
+    width: 100%;
+    background-color: #333;
+    overflow: hidden; /* Для правильного відображення при стисненні вмісту */
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Використання flexbox для горизонтального розташування */
+    justify-content: center; /* Вирівнювання по центру */
+}
+
+#menu ul li {
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li a {
+    display: block;
+    color: white;
+    padding: 14px 20px; /* Збільшені відступи для кращого вигляду */
+    text-decoration: none;
+    text-align: center; /* Вирівнювання тексту по центру */
+}
+
+#menu ul li a:hover {
+    background-color: #575757;
+    color: #fff;
+}
+
+/* Додаткові стилі для кращого вигляду */
+#menu ul li a {
+    transition: background-color 0.3s, color 0.3s;
+}
